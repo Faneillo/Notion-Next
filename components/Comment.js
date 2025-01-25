@@ -14,7 +14,7 @@ import Artalk from './Artalk'
  */
 const Comment = ({ frontMatter, className }) => {
   const router = useRouter()
-  const [shouldLoad, setShouldLoad] = useState(false)
+  const [shouldLoad, setShouldLoad] = useState(true)
   const commentRef = useRef(null)
 
   const COMMENT_ARTALK_SERVER = siteConfig('COMMENT_ARTALK_SERVER')
